@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .header_img {
+    display: none;
+  }
+
+  .Leaf {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  .heading {
+    color: rgb(63, 63, 63);
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  section {
+    width: 40%;
+    margin: 30px auto;
+    color: rgb(97, 97, 97);
+  }
+
+  input {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding-left: 38px;
+  }
+
+  .inputImg {
+    position: relative;
+  }
+
+  .inputImg img {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    border-radius: 14px;
+    background-color: rgba(115, 137, 93, 1);
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .or {
+    font-weight: 500;
+    color: rgba(176, 186, 195, 1);
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin: 20px 0;
+  }
+
+  .hadAccount {
+    text-align: center;
+  }
+
+  .hadAccount span {
+    color: rgba(115, 137, 93, 1);
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  header img {
+    height: 30px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .Leaf {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .heading {
+    color: rgb(63, 63, 63);
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2px;
+  }
+
+  section {
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(97, 97, 97);
+  }
+
+  input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid lightgray;
+    padding-left: 40px;
+  }
+
+  .inputImg {
+    position: relative;
+  }
+
+  .inputImg img {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    border-radius: 40px;
+    background-color: rgba(115, 137, 93, 1);
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-top: 6px;
+  }
+
+  .or {
+    font-weight: 500;
+    color: rgba(176, 186, 195, 1);
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin: 10px 0;
+  }
+
+  .hadAccount {
+    text-align: center;
+  }
+
+  .hadAccount span {
+    color: rgba(115, 137, 93, 1);
+    font-weight: 700;
+  }
+}
